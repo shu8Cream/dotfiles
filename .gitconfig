@@ -1,0 +1,13 @@
+[user]
+	name = shu8Cream
+	email = shu.vgage@gmail.com
+[pull]
+    rebase = false
+[alias]
+    alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
+    st = status
+    stt = status -uno
+    now = branch --show-current
+    co = checkout
+[core]
+    editor = nvim
