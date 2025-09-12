@@ -9,5 +9,6 @@
     stt = status -uno
     now = branch --show-current
     co = checkout
+    br = branch
 [core]
     editor = nvim
